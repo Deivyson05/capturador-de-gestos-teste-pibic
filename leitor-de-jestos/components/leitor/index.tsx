@@ -102,7 +102,7 @@ export default function Leitor() {
       const recognizer = await GestureRecognizer.createFromOptions(vision, {
         baseOptions: {
           modelAssetPath:
-            'https://storage.googleapis.com/mediapipe-models/gesture_recognizer/gesture_recognizer/float16/1/gesture_recognizer.task',
+            '/models/modelo1.task',
           delegate: 'GPU',
         },
         runningMode: 'VIDEO',
